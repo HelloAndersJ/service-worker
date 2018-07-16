@@ -1,12 +1,13 @@
 
 // Service worker - This is going to work its magic
+
+//Just a random variable to see difference in updates
 let version = Math.floor((Math.random() * 100) + 1);
-console.log('asdasdasdsadad')
+
 self.addEventListener('install', function(e) {
   console.log('service-worker v%s installed at ', version, new Date().toLocaleTimeString())
   self.skipWaiting()
 })
-
 
 self.addEventListener('activate', function(e) {
   console.log('service-worker v%s activated at ', version, new Date().toLocaleTimeString())

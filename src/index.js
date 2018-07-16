@@ -1,7 +1,5 @@
-
 import "./scss/main.scss";
 
-console.log('JS')
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
   .register('../../service-worker.js')
