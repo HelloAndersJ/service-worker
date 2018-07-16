@@ -1,0 +1,26 @@
+/*
+* Main stylesheet
+*/
+
+
+// Utils
+@import "imports/utils";
+// Img
+@import "imports/img";
+// Lists
+@import "imports/lists";
+// Typography
+@import "imports/type";
+
+body {
+  background-color: #ededed;
+}
+.nav {
+  display: block;
+  width: 100%;
+}
+
+.active {
+  color: black;
+  font-weight: bold;
+}
