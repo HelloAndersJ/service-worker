@@ -11,4 +11,3 @@ Run `yarn dev` and open localhost:8080 in your browser
 Open up your browser dev-tools and go to "Application" > "Service workers"
 
 Toggle the "Offline" options and refresh browser to see the fallback view.  
-
