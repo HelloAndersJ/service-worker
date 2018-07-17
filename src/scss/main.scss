@@ -2,7 +2,10 @@
 * Main stylesheet
 */
 
+// IMPORTS
 
+// Variables
+@import "imports/variables";
 // Utils
 @import "imports/utils";
 // Img
@@ -12,15 +15,10 @@
 // Typography
 @import "imports/type";
 
-body {
-  background-color: #ededed;
-}
-.nav {
-  display: block;
-  width: 100%;
-}
 
-.active {
-  color: black;
-  font-weight: bold;
+// Components
+@import "components/nav";
+
+body {
+  background-color: $grey;
 }

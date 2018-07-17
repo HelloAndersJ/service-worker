@@ -1,0 +1,11 @@
+.nav {
+  display: block;
+  width: 100%;
+  &__item {
+    color: $body;
+    &.active {
+      color: $black;
+      font-weight: bold;
+    }
+  }
+}
