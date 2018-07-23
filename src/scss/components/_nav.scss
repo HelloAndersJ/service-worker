@@ -12,4 +12,10 @@
       font-weight: bold;
     }
   }
+  &.offline a {
+    opacity: .25;
+    &.visited {
+      opacity: 1;
+    }
+  }
 }

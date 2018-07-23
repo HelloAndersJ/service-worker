@@ -65,5 +65,9 @@ module.exports = {
       template: './src/pig.html',
       filename: 'pig.html'
     }),
+    new HtmlWebpackPlugin({
+      template: './src/goat.html',
+      filename: 'goat.html'
+    }),
   ]
 };

@@ -51,37 +51,6 @@ toolbox.router.get('/*', function(request, values, options) {
   networkTimeoutSeconds: 1,
   cache: {  
     name: swCaches.dynamic,
-    maxEntries: 5
+    maxEntries: 25
   }
 })
-
-// self.addEventListener('fetch', function(e) {
-//   e.respondWith(
-//     caches.match(e.request)
-//     .then(function (res) {
-//       if(res) {
-//         return res
-//       }
-      
-//       if(!navigator.onLine) {
-//         return caches.match(new Request('/offline-content/index.html'))
-//       }
-//       return fetchAndUpdate(e.request)
-//     })
-//   )
-// })
-
-// function fetchAndUpdate(request) {
-//   return fetch(request)
-//   .then(function(res) {
-//     if(res) {
-//       return caches.open(version)
-//       .then(function(cache) {
-//         return cache.put(request, res.clone())
-//         .then(function() {
-//           return res
-//         })
-//       })
-//     }
-//   })
-// }
